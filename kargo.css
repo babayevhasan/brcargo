@@ -13,7 +13,8 @@ body {
 }
 header {
   /* background-color: rgb(255, 255, 255); */
-  background-color: #f7b769;
+  /* background-color: #f7b769; */
+  background-color: #ff8c00;
 
   box-shadow: inset 0px -13px 25px -27px #000000;
   position: relative;
@@ -176,6 +177,7 @@ header {
   background-color: #000;
   opacity: 0.3;
   z-index: 1;
+
 }
 .img-wrap img {
   position: absolute;
@@ -281,7 +283,8 @@ h1.show {
   height: auto;
 }
 .logo-slider {
-  background: wheat;
+  /* background: wheat; */
+  background-color: white;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -355,7 +358,8 @@ h1.show {
 .news-section {
   width: 100%;
   height: auto;
-  background-color: wheat;
+  /* background-color: wheat; */
+  background-color: white;
   display: flex;
   justify-content: space-evenly;
 
@@ -497,7 +501,9 @@ h1.show {
 /* Part of Footer */
 footer {
   display: flex;
-  background-color: wheat;
+  background-color: whitesmoke;
+  /* background-color: rgb(243, 235, 235); */
+
   padding: 40px;
   border-top: 2px solid orange;
 }
@@ -559,7 +565,9 @@ footer {
 .about-section {
   width: 100%;
   /* height: 100vh; */
-  background-color: wheat;
+  /* background-color: wheat; */
+  background-color: white;
+
   text-align: center;
 }
 
@@ -592,7 +600,8 @@ section h2 {
 /* Part Of services  start*/
 .services-section {
   width: 100%;
-  background-color: wheat;
+  /* background-color: wheat; */
+  background-color: white;
   text-align: center;
 }
 .services {
