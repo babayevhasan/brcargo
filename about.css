@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutus1 {
+    text-align: center;
+    background-color: rgb(148, 193, 225);
+    height: 50vh;
+    width: 100%;
+}
+
+img {
+    margin-top: 100px;
+}
+
+.img1 {
+    width: 400px;
+}
+
+.img3 {
+    width: 400px;
+}
+
+h3 {
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+h6 {
+    padding-top: 200px;
+}
+
+.aboutus2 {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-weight: 400;
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* .learnmore {
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.learnmore button {
+
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: rgb(55, 55, 159);
+    width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.learnmore button:hover {
+    background-color: rgb(148, 193, 225);
+    color: white;
+
+}
+
+.learnmore2 {
+    display: none;
+    text-align: start;
+    width: 100%;
+}
+
+.learnmore2 li {
+    width: 60%;
+}
+
+.learnmore2 button {
+    margin-top: 50px;
+} */
+
+ul li {
+    margin-left: 200px;
+    list-style-type: square;
+}
+
+h1 {
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.aboutstatistics {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.aboutstatistics i {
+    color: grey;
+    font-size: 50px;
+    transition: 0.7s;
+}
+
+.aboutstatistics i:hover {
+    color: rgb(148, 193, 225);
+}
+
+.aboutstatistics p {
+    font-size: 15px;
+}
+
+.aboutstatistics h4 {
+    font-size: 25px;
+}
+
+.aboutstatistics div {
+    overflow: hidden;
+    padding-top: 80px;
+    width: 25%;
+    /* height: 40vh; */
+    text-align: center;
+}
+
+
+@media screen and (min-width: 767px) {
+
+    /* p {} */
+
+}
