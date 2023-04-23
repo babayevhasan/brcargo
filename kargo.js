@@ -51,3 +51,7 @@ menuHamburger.addEventListener("click", () => {
 });
 
 //Part Of About
+/* Demo purposes only */
+$(".hover").mouseleave(function () {
+  $(this).removeClass("hover");
+});
