@@ -10,7 +10,7 @@
 
 header {
   /* background-color: rgb(255, 255, 255); */
-  background-color: rgb(148, 193, 225);
+  background-color: rgba(230, 181, 123, 0.947);
 
   box-shadow: inset 0px -13px 25px -27px #000000;
   position: relative;
@@ -94,9 +94,11 @@ header {
   font-size: 1.6rem;
   /* color: ; */
 }
-.icons .icon:hover {
-  color: red;
+
+.icons a i:last-child {
+  font-size: 1.6rem;
 }
+
 @media screen and (min-width: 767px) {
   .burger {
     display: none;
