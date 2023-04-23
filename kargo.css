@@ -7,11 +7,13 @@
   font-size: 16px;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background-color: rgba(229, 222, 212, 0.947);
+}
 
 header {
   /* background-color: rgb(255, 255, 255); */
   background-color: rgba(252, 147, 18, 0.947);
-
 
   box-shadow: inset 0px -13px 25px -27px #000000;
   position: relative;
@@ -157,7 +159,8 @@ header {
 footer {
   display: flex;
   background-color: rgba(229, 222, 212, 0.947);
-  /* margin-top: 50px; */
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .footerleft {
@@ -229,7 +232,6 @@ section h2 {
 .about-vector {
   width: 100%;
   height: auto;
-
 }
 
 .about-info {
@@ -237,7 +239,7 @@ section h2 {
   text-align: start;
   margin-top: 30px;
   /* background-color: green; */
-  width: 80%;
+  width: 90%;
   /* height: 500px; */
 }
 
