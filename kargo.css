@@ -158,9 +158,11 @@ header {
 /* Part of Footer */
 footer {
   display: flex;
-  background-color: rgba(229, 222, 212, 0.947);
+  /* background-color: rgba(229, 222, 212, 0.947); */
+  background-color: rgba(243, 158, 56, 0.947);
+padding: 40px;
   margin-top: 50px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .footerleft {
@@ -173,7 +175,7 @@ footer {
   display: flex;
   width: 45%;
   /* background-color: rgba(252, 147, 18, 0.947); */
-  background-color: rgba(243, 158, 56, 0.947);
+  /* background-color: rgba(110, 104, 104, 0.947); */
 
   margin: auto;
 }
@@ -250,3 +252,53 @@ section h2 {
 }
 
 /* Part Of About End */
+
+
+/* Part Of services  start*/
+.services{
+  border-radius: 0.3cm;
+  border:solid 2px rgb(243, 158, 56, 0.947) ;
+  margin: auto;
+  /* background-color: red; */
+  width: 35%;
+  height: 200px;
+  display: flex;
+}
+
+.servicesleft-img{
+  width: 30%;
+  /* background-color: blue; */
+  
+}
+
+.services-info{
+  width: 80%;
+  font-size: 15px;
+  text-align: start;
+  /* background-color: yellow; */
+}
+
+.servicesleft{
+  /* background-color: green; */
+  width: 100%;
+  height: auto;
+}
+.services-info p{
+  padding: 0;
+}
+.services-wrapper{
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 600px;
+}
+.services-wrapper h4{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+/* Part Of services End*/
+
