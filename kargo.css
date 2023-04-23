@@ -1,245 +1,191 @@
 * {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
-    /* background-color: rgb(255, 255, 255); */
-    background-color: rgb(148, 193, 225);
+  /* background-color: rgb(255, 255, 255); */
+  background-color: rgb(148, 193, 225);
 
-    box-shadow: inset 0px -13px 25px -27px #000000;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  box-shadow: inset 0px -13px 25px -27px #000000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo strong {
-    display: inline-block;
-    padding: 10px;
-    font-size: 1.5rem;
-    font-family: sans-serif;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: sans-serif;
 }
 .burger {
-    background-color: aliceblue;
-    position: absolute;
-    transform: translateY(-50%);
-    top: 20px;
-    right: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  background-color: aliceblue;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 20px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .navbar {
-    display: none;
+  display: none;
 }
 .mobile-menu {
-    background-color: rgba(255, 255, 255, 0.379);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  background-color: rgba(255, 255, 255, 0.379);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 .icons {
-    display: flex;
-    padding: 15px;
-
-
+  display: flex;
+  padding: 15px;
 }
 .icons a li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
 }
 .links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .links a {
-    padding: 20px;
+  padding: 20px;
 }
 .links a li {
-    font-size: 1.2rem;
-    display: inline-block;
-    padding: 2px;
-    position: relative;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 2px;
+  position: relative;
 }
 .links a li::after {
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #000000;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-out;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-out;
 }
 .links a li:hover::after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 .icons .icon {
-    font-size: 1.6rem;
-    /* color: ; */
+  font-size: 1.6rem;
+  /* color: ; */
 }
 .icons .icon:hover {
-    color: red;
+  color: red;
 }
 @media screen and (min-width: 767px) {
-    .burger {
-        display: none;
-    }
-    header {
-        justify-content: space-between;
-    }
-    .logo {
-        padding: 5px 15px;
-    }
-    .navbar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .links {
-        flex-direction: row;
-        margin-right: 5vw;
-    }
-    .links a {
-        padding: 0 20px;
-    }
-    .icons {
-        padding: 0;
-        order: 2;
-    }
+  .burger {
+    display: none;
+  }
+  header {
+    justify-content: space-between;
+  }
+  .logo {
+    padding: 5px 15px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    flex-direction: row;
+    margin-right: 5vw;
+  }
+  .links a {
+    padding: 0 20px;
+  }
+  .icons {
+    padding: 0;
+    order: 2;
+  }
 }
-
-
 
 /* Part Of Section */
 .carousel {
-    background-color: rgb(125, 75, 75);
-    height: 500px;
-    width: 100%;
-
+  background-color: rgb(125, 75, 75);
+  height: 500px;
+  width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Part of Footer */
 footer {
-    display: flex;
-    background-color: white;
-    margin-top: 50px;
+  display: flex;
+  background-color: white;
+  margin-top: 50px;
 }
 
 .footerleft {
-    text-align: center;
-    width: 50%;
-    /* background-color: yellow; */
+  text-align: center;
+  width: 50%;
+  /* background-color: yellow; */
 }
 
-
-
-
-.footerright{
-    border-radius: 10px;
-    display: flex;
-    width: 45%;
-    /* background-color: rgb(226, 219, 219); */
-    background-color: rgb(148, 193, 225);
-    margin: auto;
-    
+.footerright {
+  border-radius: 10px;
+  display: flex;
+  width: 45%;
+  /* background-color: rgb(226, 219, 219); */
+  background-color: rgb(148, 193, 225);
+  margin: auto;
 }
-.footerright h5{
-    margin-left: 25px;
+.footerright h5 {
+  margin-left: 25px;
 }
 
-.footerright div{
-    text-align: start;
-    overflow: hidden;
-    padding-top: 50px;
-    width: 40%;
+.footerright div {
+  text-align: start;
+  overflow: hidden;
+  padding-top: 50px;
+  width: 40%;
 }
 
-.SocialLinks li{
-margin: 25px;
-transition: 1s;
+.SocialLinks li {
+  margin: 25px;
+  transition: 1s;
 }
-
 
 /* .SocialLinks li:hover{
     background-color: coral;
     border-radius: 5px;
     } */
 
-.SocialLinks i{
-font-size: 20px;
-color: black;
+.SocialLinks i {
+  font-size: 20px;
+  color: black;
 }
 
-
-.QuickContact p{
-margin: 25px;
+.QuickContact p {
+  margin: 25px;
 }
-.ImportantLinks li{
-margin: 25px;
-
+.ImportantLinks li {
+  margin: 25px;
 }
 
-
-.SocialLinks  a::after{
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color:white;
-    top: 25px;
-    /* bottom: 0; */
-    left: 0;
-    transition: 1s;
-    position: absolute;
-}
-.SocialLinks li:hover a{
-    position: relative;
-}
-
-
-.ImportantLinks a::after{
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color:white;
-    top: 25px;
-    /* bottom: 0; */
-    left: 0;
-    transition: 1s;
-    position: absolute;
-}
-.ImportantLinks li:hover a{
-    position: relative;
+.SocialLinks li:hover a {
+  position: relative;
 }
