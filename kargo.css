@@ -10,7 +10,8 @@
 
 header {
   /* background-color: rgb(255, 255, 255); */
-  background-color: rgba(230, 181, 123, 0.947);
+  background-color: rgba(252, 147, 18, 0.947);
+
 
   box-shadow: inset 0px -13px 25px -27px #000000;
   position: relative;
@@ -18,12 +19,14 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .logo strong {
   display: inline-block;
   padding: 10px;
   font-size: 1.5rem;
   font-family: sans-serif;
 }
+
 .burger {
   background-color: aliceblue;
   position: absolute;
@@ -35,9 +38,11 @@ header {
   align-items: center;
   cursor: pointer;
 }
+
 .navbar {
   display: none;
 }
+
 .mobile-menu {
   background-color: rgba(255, 255, 255, 0.379);
   display: flex;
@@ -51,31 +56,37 @@ header {
   left: 0;
   z-index: -1;
 }
+
 .icons {
   display: flex;
   padding: 15px;
 }
+
 .icons a li {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 15px;
 }
+
 .links {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .links a {
   padding: 20px;
 }
+
 .links a li {
   font-size: 1.2rem;
   display: inline-block;
   padding: 2px;
   position: relative;
 }
+
 .links a li::after {
   content: "";
   width: 100%;
@@ -87,9 +98,11 @@ header {
   transform: scaleX(0);
   transition: transform 0.3s ease-out;
 }
+
 .links a li:hover::after {
   transform: scaleX(1);
 }
+
 .icons .icon {
   font-size: 1.6rem;
   /* color: ; */
@@ -103,24 +116,30 @@ header {
   .burger {
     display: none;
   }
+
   header {
     justify-content: space-between;
   }
+
   .logo {
     padding: 5px 15px;
   }
+
   .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .links {
     flex-direction: row;
     margin-right: 5vw;
   }
+
   .links a {
     padding: 0 20px;
   }
+
   .icons {
     padding: 0;
     order: 2;
@@ -129,7 +148,7 @@ header {
 
 /* Part Of Section */
 .carousel {
-  background-color: rgb(125, 75, 75);
+  background-color: rgba(229, 222, 212, 0.947);
   height: 500px;
   width: 100%;
 }
@@ -137,24 +156,25 @@ header {
 /* Part of Footer */
 footer {
   display: flex;
-  background-color: white;
-  margin-top: 50px;
+  background-color: rgba(229, 222, 212, 0.947);
+  /* margin-top: 50px; */
 }
 
 .footerleft {
   text-align: center;
   width: 50%;
-  /* background-color: yellow; */
 }
 
 .footerright {
   border-radius: 10px;
   display: flex;
   width: 45%;
-  /* background-color: rgb(226, 219, 219); */
-  background-color: rgb(148, 193, 225);
+  /* background-color: rgba(252, 147, 18, 0.947); */
+  background-color: rgba(243, 158, 56, 0.947);
+
   margin: auto;
 }
+
 .footerright h5 {
   margin-left: 25px;
 }
@@ -184,6 +204,7 @@ footer {
 .QuickContact p {
   margin: 25px;
 }
+
 .ImportantLinks li {
   margin: 25px;
 }
@@ -191,3 +212,39 @@ footer {
 .SocialLinks li:hover a {
   position: relative;
 }
+
+/* Part Of About start */
+section {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: rgba(229, 222, 212, 0.947);
+  text-align: center;
+}
+
+section h2 {
+  padding-top: 60px;
+  font-size: 30px;
+}
+
+.about-vector {
+  width: 100%;
+  height: auto;
+
+}
+
+.about-info {
+  margin: auto;
+  text-align: start;
+  margin-top: 30px;
+  /* background-color: green; */
+  width: 80%;
+  /* height: 500px; */
+}
+
+.about-info p {
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 40px;
+}
+
+/* Part Of About End */
