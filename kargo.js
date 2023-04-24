@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
   $imageSlider.slick({
     autoplay: true,
     autoplaySpeed: sliderTimer,
-    speed: 1000,
+    speed: 2000,
     arrows: true,
     dots: false,
     adaptiveHeight: true,
