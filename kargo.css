@@ -71,6 +71,9 @@ header {
   align-items: center;
   margin: 0 15px;
 }
+.icons a h4 {
+  margin-right: 5px;
+}
 
 .links {
   display: flex;

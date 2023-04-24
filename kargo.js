@@ -1,3 +1,4 @@
+// Part Of Slide
 jQuery(document).ready(function ($) {
   var sliderTimer = 5000;
   var beforeEnd = 500;
