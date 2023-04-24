@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: wheat;
+  background-color: white;
 }
 header {
   /* background-color: rgb(255, 255, 255); */
@@ -177,7 +177,6 @@ header {
   background-color: #000;
   opacity: 0.3;
   z-index: 1;
-
 }
 .img-wrap img {
   position: absolute;
@@ -358,11 +357,9 @@ h1.show {
 .news-section {
   width: 100%;
   height: auto;
-  /* background-color: wheat; */
   background-color: white;
   display: flex;
   justify-content: space-evenly;
-
   margin-bottom: 20px;
   border-top: 2px solid orange;
 }
