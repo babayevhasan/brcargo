@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
     setTimeout(function () {
       $(".slider-progress")
         .find("span")
-        .css("transition-duration", sliderTimer / 1000 + "s")
+        .css("transition-duration", sliderTimer / 2000 + "s")
         .addClass("active");
     }, 100);
   }
