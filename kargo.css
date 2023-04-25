@@ -691,6 +691,7 @@ section h2 {
 /* Part of RATES start */
 .rates-section {
   width: 100%;
+  /* padding: 0px 10% 0px 10%; */
 }
 
 .rates-text {
@@ -720,14 +721,13 @@ section h2 {
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
-  /* height: 100vh; */
 }
 
 .ratesdiv {
   border: solid 2px rgb(243, 158, 56, 0.947);
-  width: 35%;
+  width: 30%;
   /* background-color: rgb(153, 195, 153); */
   margin: 45px;
   border-radius: 10px;
