@@ -304,76 +304,74 @@ h1.show {
   width: 100%;
   height: auto;
 }
-
-.logo-slider {
-  /* background: wheat; */
-  background-color: white;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
+.allbrands {
+  align-items: center;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
-.logo-slider::before,
-.logo-slider::after {
+.allbrands .brands {
+}
+.allbrands @-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.allbrands .slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+}
+.allbrands .slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    #f5f5f5 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   content: "";
-  height: 175px;
+  height: 100px;
   position: absolute;
   width: 200px;
   z-index: 2;
 }
-
-.logo-slider::after {
+.allbrands .slider::after {
   right: 0;
   top: 0;
-  -webkit-transform: rotateZ(180deg);
   transform: rotateZ(180deg);
 }
-
-.logo-slider::before {
+.allbrands .slider::before {
   left: 0;
   top: 0;
 }
-
-.logo-slider .logo-slide-track {
-  -webkit-animation: logo-scroll 60s linear infinite;
-  animation: logo-scroll 60s linear infinite;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.allbrands .slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
   display: flex;
   width: calc(250px * 14);
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
 }
-
-.logo-slider .slide {
-  height: 150px;
+.allbrands .slider .slide {
+  height: 100px;
   width: 250px;
-  padding: 20px;
 }
-
-@-webkit-keyframes logo-scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
-  }
-}
-
-@keyframes logo-scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
-  }
+.slide img {
+  object-fit: contain;
 }
 
 /* Part of Partner end */
@@ -412,14 +410,14 @@ h1.show {
   transition: all 0.3s ease-out;
 }
 
-.snip1369>img,
+.snip1369 > img,
 .snip1369 .image img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   max-width: 100%;
 }
 
-.snip1369>img {
+.snip1369 > img {
   vertical-align: top;
   position: relative;
   -webkit-filter: blur(5px);
@@ -500,6 +498,12 @@ h1.show {
   bottom: 0;
   position: absolute;
   z-index: 1;
+}
+figcaption h3 {
+  color: white;
+}
+figcaption p {
+  color: white;
 }
 
 .snip1369:hover .read-more,
@@ -687,7 +691,6 @@ section h2 {
 
 /* Part Of services End*/
 
-
 /* Part of RATES start */
 .rates-section {
   width: 100%;
@@ -744,9 +747,9 @@ section h2 {
   font-size: 40px;
   transition: 0.5s;
 }
-.ratesdiv i:hover{
-color: rgb(169, 164, 164);
-transform: rotate(360deg);
+.ratesdiv i:hover {
+  color: rgb(169, 164, 164);
+  transform: rotate(360deg);
 }
 
 .rates-numbers {
@@ -769,17 +772,5 @@ transform: rotate(360deg);
   display: flex;
   color: grey;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Part of RATES start */

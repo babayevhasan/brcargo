@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
   $imageSlider.slick({
     autoplay: true,
     autoplaySpeed: sliderTimer,
-    speed: 2000,
+    speed: 1000,
     arrows: true,
     dots: false,
     adaptiveHeight: true,
@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
     setTimeout(function () {
       $(".slider-progress")
         .find("span")
-        .css("transition-duration", sliderTimer / 2000 + "s")
+        .css("transition-duration", sliderTimer / 1000 + "s")
         .addClass("active");
     }, 100);
   }
