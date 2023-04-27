@@ -304,6 +304,7 @@ h1.show {
   width: 100%;
   height: auto;
 }
+
 .allbrands {
   align-items: center;
   background: #f5f5f5;
@@ -312,12 +313,13 @@ h1.show {
   width: 100%;
 }
 
-.allbrands .brands {
-}
-.allbrands @-webkit-keyframes scroll {
+.allbrands .brands {}
+
+@-webkit-keyframes scroll {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-250px * 7));
   }
@@ -327,10 +329,12 @@ h1.show {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-250px * 7));
   }
 }
+
 .allbrands .slider {
   height: 100px;
   margin: auto;
@@ -338,38 +342,42 @@ h1.show {
   position: relative;
   width: 80%;
 }
+
 .allbrands .slider::before,
 .slider::after {
-  background: linear-gradient(
-    to right,
-    #f5f5f5 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(to right,
+      #f5f5f5 0%,
+      rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 100px;
   position: absolute;
   width: 200px;
   z-index: 2;
 }
+
 .allbrands .slider::after {
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
 }
+
 .allbrands .slider::before {
   left: 0;
   top: 0;
 }
+
 .allbrands .slider .slide-track {
   -webkit-animation: scroll 40s linear infinite;
   animation: scroll 40s linear infinite;
   display: flex;
   width: calc(250px * 14);
 }
+
 .allbrands .slider .slide {
   height: 100px;
   width: 250px;
 }
+
 .slide img {
   object-fit: contain;
 }
@@ -410,14 +418,14 @@ h1.show {
   transition: all 0.3s ease-out;
 }
 
-.snip1369 > img,
+.snip1369>img,
 .snip1369 .image img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   max-width: 100%;
 }
 
-.snip1369 > img {
+.snip1369>img {
   vertical-align: top;
   position: relative;
   -webkit-filter: blur(5px);
@@ -499,9 +507,11 @@ h1.show {
   position: absolute;
   z-index: 1;
 }
+
 figcaption h3 {
   color: white;
 }
+
 figcaption p {
   color: white;
 }
@@ -692,6 +702,7 @@ section h2 {
 /* Part Of services End*/
 
 /* Part of RATES start */
+
 .rates-section {
   width: 100%;
   /* padding: 0px 10% 0px 10%; */
@@ -708,19 +719,19 @@ section h2 {
 }
 
 .rates-button button {
-  color: grey;
+  /* color: grey; */
   border-radius: 5px;
   padding: 5px;
-  transition: 1s;
+  /* transition: 1s; */
   border: none;
 }
 
 .rates-button button:hover {
-  background-color: #ff8c00;
-  color: white;
+  color: black;
 }
 
 .rates {
+  background-color: rgb(115, 199, 115);
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -738,39 +749,68 @@ section h2 {
 }
 
 .rates-icon {
-  width: 15%;
+  /* background-color: red; */
+  width: 10%;
 }
 
 .ratesdiv i {
   color: rgb(225, 224, 224);
-  padding: 10px;
+  padding-top: 45px;
+  padding-left: 20px;
+  height: 100px;
   font-size: 40px;
   transition: 0.5s;
 }
-.ratesdiv i:hover {
-  color: rgb(169, 164, 164);
-  transform: rotate(360deg);
-}
+
 
 .rates-numbers {
-  overflow: hidden;
+  padding: 10px;
   border-radius: 0.3cm;
-  width: 80%;
+  width: 90%;
   /* background-color: yellow; */
 }
 
 .rates-numbers div {
-  margin-left: 80px;
+  margin-left: 40px;
   margin-top: 20px;
 }
 
 .rates-numbers h6 {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
-.rates-pre {
-  display: flex;
+.rates-p {
+  /* display: flex; */
   color: grey;
 }
+
+
+.rates2 {
+  background-color: rgb(24, 140, 202);
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.tarif2 {
+  /* display: none; */
+}
+.active{
+  background-color: #ff8c00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Part of RATES start */
