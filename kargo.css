@@ -796,7 +796,8 @@ section h2 {
 .tarif2 {
   display: none;
 }
-.active{
+
+.active {
   background-color: #e4840e;
 }
 
@@ -805,26 +806,29 @@ section h2 {
 
 
 /* Part of ReadMORE END */
-.readmore{
+.readmore {
   width: 100%;
   height: 100vh;
-  background-color:#ff8c00;
+  background-color: #ff8c00;
   padding: 20px 0px;
 }
-.readmorestart{
+
+.readmorestart {
   width: 80%;
   height: 10vh;
   background-color: white;
-  margin:auto;
+  margin: auto;
   border-radius: 10px;
 }
-.readmorestart h4{
+
+.readmorestart h4 {
   color: black;
   font-size: 18px;
   width: 80%;
   padding: 20px;
 }
-.readmorebody{
+
+.readmorebody {
   width: 80%;
   height: 80vh;
   background-color: white;
@@ -832,63 +836,72 @@ section h2 {
   border-radius: 10px;
   display: flex;
 }
-.readmorebody div{
+
+.readmorebody div {
   width: 81%;
 }
-.readmoreleft{
-    padding: 20px;
-}
-.readmoreleft img{
-  width: 85%;
-}
-.readmoreleftp{
-/* background-color: green; */
-width: 100%;
-padding: 10px;
-border-radius: 10px;
-border: solid 1px black;
-}
-.readmoreright{
+
+.readmoreleft {
   padding: 20px;
 }
-.readmoreright p{
+
+.readmoreleft img {
+  width: 85%;
+}
+
+.readmoreleftp {
+  /* background-color: green; */
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px black;
+}
+
+.readmoreright {
+  padding: 20px;
+}
+
+.readmoreright p {
   width: 95%;
 }
+
 /* Part of ReadMORE END */
 
+
+
 /* Part of MAGAZINE START */
-.magazine{
+.magazine {
   width: 100%;
   /* background-color: rgb(139, 214, 139); */
 }
-.magazine h2{
+.magazine h2 {
   text-align: center;
 }
-.magazine-photos{
+.magazine-photos {
   width: 90%;
-  height: 200vh;  
+  height: 200vh;
   /* background-color: red; */
-  margin:20px auto;
+  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
 }
 .magazine-photos div{
-  border: solid 1px #ff8c00 ;
+  border: solid 1px #ff8c00;
   width: 19%;
   height: 200px;
-  margin:auto;
+  margin: auto;
   display: flex;
   text-align: center;
 }
-.magazine-photos img:hover{
+.magazine-photos img:hover {
   transform: scale(1.19);
 }
-
-.magazine-photos img{
+.magazine-photos img {
   margin: auto;
   width: 80%;
   object-fit: contain;
   transition: 1s;
 }
+
 /* Part of MAGAZINE END */
