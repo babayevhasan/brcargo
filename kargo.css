@@ -702,7 +702,6 @@ section h2 {
 /* Part Of services End*/
 
 /* Part of RATES start */
-
 .rates-section {
   width: 100%;
   /* padding: 0px 10% 0px 10%; */
@@ -731,7 +730,7 @@ section h2 {
 }
 
 .rates {
-  background-color: rgb(115, 199, 115);
+  /* background-color: rgb(115, 199, 115); */
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -786,7 +785,7 @@ section h2 {
 
 
 .rates2 {
-  background-color: rgb(24, 140, 202);
+  /* background-color: rgb(24, 140, 202); */
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -795,22 +794,64 @@ section h2 {
 }
 
 .tarif2 {
-  /* display: none; */
+  display: none;
 }
 .active{
   background-color: #ff8c00;
 }
 
+/* Part of RATES END */
 
 
 
-
-
-
-
-
-
-
-
-
-/* Part of RATES start */
+/* Part of ReadMORE END */
+.readmore{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(132, 132, 192);
+  padding: 20px 0px;
+}
+.readmorestart{
+  width: 80%;
+  height: 10vh;
+  background-color: white;
+  margin:auto;
+  border-radius: 10px;
+}
+.readmorestart h4{
+  color: black;
+  font-size: 18px;
+  width: 80%;
+  padding: 20px;
+}
+.readmorebody{
+  width: 80%;
+  height: 80vh;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: flex;
+}
+.readmorebody div{
+  width: 81%;
+}
+.readmoreleft{
+    padding: 20px;
+}
+.readmoreleft img{
+  width: 85%;
+}
+.readmoreleftp{
+/* background-color: green; */
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+border: solid 1px black;
+}
+.readmoreright{
+  padding: 20px;
+}
+.readmoreright p{
+  width: 95%;
+}
+/* Part of ReadMORE END */
