@@ -594,6 +594,9 @@ footer {
   margin: 25px;
   transition: 1s;
 }
+.SocialLinks li a i {
+  margin-right: 5px;
+}
 
 /* .SocialLinks li:hover{
     background-color: coral;
