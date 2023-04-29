@@ -594,6 +594,9 @@ footer {
   margin: 25px;
   transition: 1s;
 }
+.SocialLinks li a i {
+  margin-right: 5px;
+}
 
 /* .SocialLinks li:hover{
     background-color: coral;
@@ -636,11 +639,16 @@ section h2 {
   width: 100%;
   height: auto;
 }
+.about-vector img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
 
 .about-info {
   margin: auto;
   text-align: start;
-  margin-top: 30px;
+  margin-top: 0px;
   width: 90%;
   padding-bottom: 30px;
 }
@@ -934,6 +942,7 @@ section h2 {
   width: 85%;
   margin: 20px;
   padding: 10px;
+  border-radius: 0.3cm;
 }
 
 .calculator-control {
@@ -946,12 +955,14 @@ section h2 {
   width: 35%;
   margin: 20px auto;
   padding: 10px;
+  border-radius: 0.3cm;
 }
 .calculator-input {
   /* background-color: #e4840e; */
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  border-radius: 0.3cm;
 }
 .calculator-input input {
   width: 32%;
