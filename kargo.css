@@ -313,8 +313,7 @@ h1.show {
   width: 100%;
 }
 
-.allbrands .brands {
-}
+.allbrands .brands {}
 
 @-webkit-keyframes scroll {
   0% {
@@ -346,11 +345,9 @@ h1.show {
 
 .allbrands .slider::before,
 .slider::after {
-  background: linear-gradient(
-    to right,
-    #f5f5f5 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(to right,
+      #f5f5f5 0%,
+      rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 100px;
   position: absolute;
@@ -421,14 +418,14 @@ h1.show {
   transition: all 0.3s ease-out;
 }
 
-.snip1369 > img,
+.snip1369>img,
 .snip1369 .image img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   max-width: 100%;
 }
 
-.snip1369 > img {
+.snip1369>img {
   vertical-align: top;
   position: relative;
   -webkit-filter: blur(5px);
@@ -797,6 +794,7 @@ section h2 {
 .tarif2 {
   display: none;
 }
+
 .active {
   background-color: #e4840e;
 }
@@ -811,6 +809,7 @@ section h2 {
   font-weight: 300;
   margin: 30px auto;
 }
+
 .readmore-news-container {
   width: 100%;
   height: auto;
@@ -822,6 +821,7 @@ section h2 {
   background-color: #ff8c00;
   margin-top: 10px;
 }
+
 .readmore-news-title {
   width: 100%;
   height: auto;
@@ -830,6 +830,7 @@ section h2 {
   background-color: #ff8c00;
   color: white;
 }
+
 .readmore-news-title h3 {
   color: white;
 }
@@ -837,6 +838,7 @@ section h2 {
 .readmore-news-img {
   width: 48%;
 }
+
 .readmore-news-time {
   width: 96%;
   border: 3px solid #ec641a;
@@ -844,18 +846,22 @@ section h2 {
   border-radius: 0.3cm;
   padding: 10px;
 }
+
 .readmore-news-img img {
   width: 100%;
 }
+
 .readmore-news-text {
   width: 48%;
   height: auto;
   margin-left: 2%;
   color: white;
 }
+
 .readmore-news-text p {
   color: white;
 }
+
 .readmore-news-time p {
   color: white;
 }
@@ -867,9 +873,11 @@ section h2 {
   width: 100%;
   /* background-color: rgb(139, 214, 139); */
 }
+
 .magazine h2 {
   text-align: center;
 }
+
 .magazine-photos {
   width: 90%;
   height: 200vh;
@@ -879,6 +887,7 @@ section h2 {
   padding: 20px;
   flex-wrap: wrap;
 }
+
 .magazine-photos div {
   border: solid 1px #ff8c00;
   width: 19%;
@@ -888,6 +897,7 @@ section h2 {
 
   text-align: center;
 }
+
 .magazine-photos img:hover {
   transform: scale(1.19);
 }
@@ -900,3 +910,76 @@ section h2 {
 }
 
 /* Part of MAGAZINE END */
+
+/* Part of CALCULATOR START */
+.calculator-header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  border-top: 1px solid orange;
+}
+
+.calculator-number {
+  width: 60%;
+  height: 100%;
+  /* background-color: rgb(189, 116, 116); */
+  text-align: center;
+}
+
+
+.calculator-country select {
+  width: 85%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.calculator-control {
+  /* background-color: yellow; */
+  display: flex;
+  text-align: center;
+}
+
+.calculator-control select {
+  width: 35%;
+  margin: 20px auto;
+  padding: 10px;
+}
+.calculator-input{
+  /* background-color: #e4840e; */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.calculator-input input{
+width: 32%;
+margin:20px auto;
+padding: 10px;
+
+}
+.calculator-header button{
+  padding: 10px;
+  width: 20%;
+  /* background-color: aqua; */
+  border-radius: 0.2cm;
+  border: none;
+  margin: 20px;
+}
+.calculator-header p{
+  font-size: 15px;
+}
+
+.calculator-info {
+  width: 40%;
+  height: auto;
+  padding: 50px;
+}
+
+.calculator-info h3{
+  font-size: 30px;
+}
+.calculator-info p{
+  font-size: 18px;
+  font-weight: 300;
+}
+/* Part of CALCULATOR END */
