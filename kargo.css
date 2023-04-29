@@ -313,7 +313,8 @@ h1.show {
   width: 100%;
 }
 
-.allbrands .brands {}
+.allbrands .brands {
+}
 
 @-webkit-keyframes scroll {
   0% {
@@ -345,9 +346,11 @@ h1.show {
 
 .allbrands .slider::before,
 .slider::after {
-  background: linear-gradient(to right,
-      #f5f5f5 0%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #f5f5f5 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   content: "";
   height: 100px;
   position: absolute;
@@ -418,14 +421,14 @@ h1.show {
   transition: all 0.3s ease-out;
 }
 
-.snip1369>img,
+.snip1369 > img,
 .snip1369 .image img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   max-width: 100%;
 }
 
-.snip1369>img {
+.snip1369 > img {
   vertical-align: top;
   position: relative;
   -webkit-filter: blur(5px);
@@ -705,6 +708,7 @@ section h2 {
 .rates-section {
   width: 100%;
   /* padding: 0px 10% 0px 10%; */
+  border-bottom: 1px solid orange;
 }
 
 .rates-text {
@@ -913,11 +917,10 @@ section h2 {
 
 /* Part of CALCULATOR START */
 .calculator-header {
-  width: 100%;
+  width: 83%;
   height: auto;
   display: flex;
   margin: auto;
-  border-top: 1px solid orange;
 }
 
 .calculator-number {
@@ -926,7 +929,6 @@ section h2 {
   /* background-color: rgb(189, 116, 116); */
   text-align: center;
 }
-
 
 .calculator-country select {
   width: 85%;
@@ -945,28 +947,33 @@ section h2 {
   margin: 20px auto;
   padding: 10px;
 }
-.calculator-input{
+.calculator-input {
   /* background-color: #e4840e; */
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
-.calculator-input input{
-width: 32%;
-margin:20px auto;
-padding: 10px;
-
-}
-.calculator-header button{
+.calculator-input input {
+  width: 32%;
+  margin: 20px auto;
   padding: 10px;
-  width: 20%;
-  /* background-color: aqua; */
+}
+.calculator-header button {
+  padding: 10px;
+  width: 23%;
+  background-color: #fc8a00;
   border-radius: 0.2cm;
   border: none;
   margin: 20px;
+  cursor: pointer;
 }
-.calculator-header p{
-  font-size: 15px;
+.calculator-header button:hover {
+  color: white;
+  transition: all 0.6s;
+}
+.calculator-header p {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .calculator-info {
@@ -975,10 +982,10 @@ padding: 10px;
   padding: 50px;
 }
 
-.calculator-info h3{
+.calculator-info h3 {
   font-size: 30px;
 }
-.calculator-info p{
+.calculator-info p {
   font-size: 18px;
   font-weight: 300;
 }
