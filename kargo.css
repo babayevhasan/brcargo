@@ -797,7 +797,7 @@ section h2 {
   display: none;
 }
 .active{
-  background-color: #ff8c00;
+  background-color: #e4840e;
 }
 
 /* Part of RATES END */
@@ -808,7 +808,7 @@ section h2 {
 .readmore{
   width: 100%;
   height: 100vh;
-  background-color: rgb(132, 132, 192);
+  background-color:#ff8c00;
   padding: 20px 0px;
 }
 .readmorestart{
@@ -855,3 +855,25 @@ border: solid 1px black;
   width: 95%;
 }
 /* Part of ReadMORE END */
+
+/* Part of MAGAZINE START */
+.magazine{
+  width: 100%;
+  /* height: 100vh; */
+  background-color: rgb(139, 214, 139);
+}
+.magazine-photos{
+  width: 80%;
+  /* height: 200vh; */
+  background-color: red;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.magazine-photos div{
+  background-color: cadetblue;
+  width: 20%;
+  /* height: 20%; */
+  margin: 20px;
+}
+/* Part of MAGAZINE END */
