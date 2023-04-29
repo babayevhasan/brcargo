@@ -942,6 +942,7 @@ section h2 {
   width: 85%;
   margin: 20px;
   padding: 10px;
+  border-radius: 0.3cm;
 }
 
 .calculator-control {
@@ -954,12 +955,14 @@ section h2 {
   width: 35%;
   margin: 20px auto;
   padding: 10px;
+  border-radius: 0.3cm;
 }
 .calculator-input {
   /* background-color: #e4840e; */
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  border-radius: 0.3cm;
 }
 .calculator-input input {
   width: 32%;
