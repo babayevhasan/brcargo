@@ -395,6 +395,8 @@ h1.show {
   justify-content: space-evenly;
   margin-bottom: 20px;
   border-top: 2px solid orange;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .snip1369 {
@@ -557,6 +559,8 @@ figcaption p {
 /* Part of Footer */
 footer {
   display: flex;
+  /* width: 100%; */
+  width: auto;
   background-color: whitesmoke;
   /* background-color: rgb(243, 235, 235); */
 
@@ -1001,3 +1005,42 @@ section h2 {
   font-weight: 300;
 }
 /* Part of CALCULATOR END */
+
+
+/* Part of MEDIA START */
+@media screen and (max-width: 767px){
+
+footer{
+  width: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.services-wrapper{
+  height: auto;
+  display: block;
+  margin-top: 50px;
+}
+.services{
+  width: 80%;
+  height: auto;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.ratesdiv{
+  width: auto;
+}
+
+.calculator-header{
+  width: auto;
+  display: flex;
+}
+.calculator-header button{
+  width: 100px;
+}
+
+}
