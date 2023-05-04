@@ -46,6 +46,7 @@ header {
 
 .navbar {
   display: none;
+  padding: 20px 2%;
 }
 
 .mobile-menu {
@@ -120,6 +121,9 @@ header {
 .icons a i:last-child {
   font-size: 1.6rem;
 }
+
+
+
 
 @media screen and (min-width: 767px) {
   .burger {
@@ -1007,40 +1011,63 @@ section h2 {
 /* Part of CALCULATOR END */
 
 
-/* Part of MEDIA START */
-@media screen and (max-width: 767px){
+/* Part of MEDIA START -----------------------------------------------LAPTOP */
+@media screen and (max-width: 1024px){
+
+  nav{
+    padding:20px 0px;
+  }
+.links{
+  margin-right: 0px;
+}
+
+.icons a li{
+  margin: 0px;
+}
 
 footer{
-  width: auto;
-  margin-top: 100px;
-  display: flex;
-  flex-wrap: wrap;
-
+text-align: center;
 }
-
-
-.services-wrapper{
-  height: auto;
-  display: block;
-  margin-top: 50px;
+.footer ul{
+font-size: 10px;
 }
 .services{
-  width: 80%;
   height: auto;
-  margin-top: 100px;
-  overflow: hidden;
+}
+.magazine-photos{
+  height: auto;
 }
 
-.ratesdiv{
-  width: auto;
+.footerright div{
+width: 50%;
+
+}
+}
+/* Part of MEDIA STRAT -----------------------------------------------TABLET */
+@media screen and (max-width: 768px){
+
+.navbar{
+  display: none;
+}
+.burger{
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+}
 }
 
-.calculator-header{
-  width: auto;
-  display: flex;
-}
-.calculator-header button{
-  width: 100px;
-}
 
+/* Part of MEDIA START -----------------------------------------------MOBILE L */
+
+@media screen and (max-width: 425px){
+
+  
+  }
+
+/* Part of MEDIA START -----------------------------------------------MOBILE L */
+
+@media screen and (max-width: 375px){
+
+  
+  
 }
