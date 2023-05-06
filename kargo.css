@@ -1040,15 +1040,32 @@ font-size: 10px;
 
 .footerright div{
 width: 50%;
+}
+
+.services-info{
+  width: 100%;
+}
+
 
 }
+
+/* Part of LAPTOP L STRAT ---------------------------------------------TABLET */
+
+@media screen and (max-width: 1440px){
+
+  .magazine-photos{
+    height: auto;
+  }
 }
+
 /* Part of MEDIA STRAT -----------------------------------------------TABLET */
+
 @media screen and (max-width: 768px){
 
 .navbar{
   display: none;
 }
+
 .burger{
   display: block;
   padding: 10px;
@@ -1060,7 +1077,10 @@ width: 50%;
 /* Part of MEDIA START -----------------------------------------------MOBILE L */
 
 @media screen and (max-width: 425px){
-
+  .snip1369{
+    min-width: auto;
+    height: auto;
+  }
   
   }
 
@@ -1068,6 +1088,9 @@ width: 50%;
 
 @media screen and (max-width: 375px){
 
-  
+  .snip1369{
+    min-width: auto;
+    height: auto;
+  }
   
 }
