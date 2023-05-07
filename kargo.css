@@ -1198,7 +1198,7 @@ section h2 {
   }
   .snip1369 figcaption {
     position: absolute;
-    top: 65%;
+    top: 73%;
     bottom: 50px;
     left: 20px;
     right: 20px;
@@ -1216,6 +1216,7 @@ section h2 {
     letter-spacing: 0px;
     font-weight: 400;
     opacity: 0;
+    margin-top: 5px;
   }
   .read-more {
     font-size: 14px;
