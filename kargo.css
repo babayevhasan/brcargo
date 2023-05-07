@@ -1050,8 +1050,8 @@ section h2 {
     padding: 0px;
   }
   .footerleft {
-    width: 100%;
-    margin: auto;
+    width: 80%;
+    margin: 10px auto;
     padding: 0;
   }
   .footerleft iframe {
@@ -1059,7 +1059,7 @@ section h2 {
     height: 300px;
   }
   .footerright {
-    width: 100%;
+    width: 90%;
   }
   .QuickContact p {
     margin: 10px;
@@ -1079,6 +1079,18 @@ section h2 {
   }
   .footerright div {
     padding-top: 20px;
+  }
+  .kilimanjaro_social_links a {
+    font-size: 13px;
+  }
+
+  .kilimanjaro_social_links a i {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  .footerright h5 {
+    margin-left: 15px;
   }
 }
 
