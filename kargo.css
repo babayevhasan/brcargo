@@ -939,19 +939,7 @@ section h2 {
   margin: 20px auto;
   padding: 10px;
 }
-.calculator-header button {
-  padding: 10px;
-  width: 23%;
-  background-color: #fc8a00;
-  border-radius: 0.2cm;
-  border: none;
-  margin: 20px;
-  cursor: pointer;
-}
-.calculator-header button:hover {
-  color: white;
-  transition: all 0.6s;
-}
+
 .calculator-header p {
   font-size: 30px;
   margin-bottom: 10px;
@@ -1113,6 +1101,81 @@ section h2 {
   }
   .footerright h5 {
     margin-left: 15px;
+  }
+  .services-wrapper {
+    display: block;
+    height: auto;
+    margin: auto;
+  }
+  .services {
+    border-radius: 0.3cm;
+    border: solid 2px rgb(243, 158, 56, 0.947);
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .servicesleft-img {
+    width: 25%;
+  }
+  .servicesleft-img img {
+    width: 5%;
+  }
+  .services-info {
+    width: 70%;
+    font-size: 15px;
+    text-align: start;
+  }
+  .services-info p {
+    font-size: 13px;
+  }
+  .services-info h4 {
+    font-size: 17px;
+  }
+  .ratesdiv {
+    width: 100%;
+  }
+  .calculator-header {
+    display: block;
+  }
+  .calculator-number {
+    width: 100%;
+  }
+  .calculator-input input {
+    width: 29%;
+    margin: 20px auto;
+    padding: 8px;
+  }
+  .calculator-header p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .calculator-info {
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    border-top: 1px solid black;
+  }
+  .calculator-info h3 {
+    font-size: 20px;
+  }
+  .calculator-info p {
+    font-size: 14px;
+  }
+  section h2 {
+    padding-top: 60px;
+    font-size: 25px;
+  }
+  .about-info p {
+    font-weight: 300;
+    font-size: 13px;
+    padding-top: 20px;
+  }
+
+  .about-vector img {
+    width: 100%;
   }
 }
 
