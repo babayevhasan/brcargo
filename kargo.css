@@ -427,8 +427,8 @@ h1.show {
 
 .snip1369 figcaption {
   position: absolute;
-  top: 75%;
-  bottom: 46px;
+  top: 80%;
+  bottom: 0px;
   left: 20px;
   right: 20px;
   border-bottom: 2px solid rgb(249, 164, 5);
@@ -443,7 +443,7 @@ h1.show {
 
 .snip1369 h3 {
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 
@@ -452,6 +452,7 @@ h1.show {
   letter-spacing: 1px;
   font-weight: 400;
   opacity: 0;
+  margin-top: 20px;
 }
 
 .snip1369 .read-more {
