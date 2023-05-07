@@ -1220,6 +1220,32 @@ section h2 {
   .read-more {
     font-size: 14px;
   }
+  .readmore-news {
+    width: 100%;
+    height: auto;
+    color: white !important;
+    font-weight: 300;
+    margin: 20px auto;
+  }
+  .readmore-news-title {
+    width: 80%;
+    margin: auto;
+  }
+  .readmore-news-title h3 {
+    font-size: 15px;
+  }
+  .readmore-news-container {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+  .readmore-news-img {
+    width: 100%;
+  }
+  .readmore-news-text {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1440px) {
