@@ -1180,6 +1180,46 @@ section h2 {
   .about-vector img {
     width: 100%;
   }
+  .snip1369 h3 {
+    font-size: 14px;
+  }
+  .snip1369 p {
+    font-size: 12px;
+  }
+  .snip1369 .image {
+    position: absolute;
+    top: 0;
+    bottom: 35%;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1),
+      0px 1px 0 rgba(255, 255, 255, 0.2);
+  }
+  .snip1369 figcaption {
+    position: absolute;
+    top: 65%;
+    bottom: 50px;
+    left: 20px;
+    right: 20px;
+    border-bottom: 2px solid rgb(249, 164, 5);
+    padding-top: 20px;
+    z-index: 1;
+  }
+  .snip1369 h3 {
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }
+  .snip1369 p {
+    font-size: 0.7em;
+    letter-spacing: 0px;
+    font-weight: 400;
+    opacity: 0;
+  }
+  .read-more {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1440px) {
