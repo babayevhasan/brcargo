@@ -539,6 +539,9 @@ footer {
   text-align: center;
   width: 50%;
 }
+.kilimanjaro_links li i {
+  margin-right: 5px;
+}
 
 .footerright {
   border-radius: 10px;
