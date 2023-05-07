@@ -236,3 +236,22 @@ body {
     z-index: 5;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container right-panel-active {
+    width: 100%;
+  }
+  .container__form container--signin {
+    width: 50%;
+  }
+
+  .form button {
+    padding: 10px;
+  }
+  .overlay button {
+    padding: 15px;
+  }
+  .container {
+    width: 100%;
+  }
+}
