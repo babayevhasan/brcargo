@@ -1045,6 +1045,7 @@ section h2 {
 @media screen and (max-width: 768px) {
   footer {
     width: 100%;
+    height: auto;
     display: block;
     margin: 0;
     padding: 0px;
