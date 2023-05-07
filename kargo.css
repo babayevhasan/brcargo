@@ -1059,7 +1059,27 @@ section h2 {
     height: 300px;
   }
   .footerright {
-    width: 90%;
+    width: 85%;
+    display: block;
+  }
+  .footerright h5 {
+    font-size: 15px;
+  }
+  .SocialLinks {
+    width: 100%;
+    overflow: visible;
+    margin: auto;
+  }
+  .SocialLinks .kilimanjaro_social_links {
+    width: 100%;
+  }
+  .QuickContact {
+    margin: auto;
+    width: 100%;
+  }
+  .ImportantLinks {
+    width: 100%;
+    margin: auto;
   }
   .QuickContact p {
     margin: 10px;
@@ -1079,6 +1099,7 @@ section h2 {
   }
   .footerright div {
     padding-top: 20px;
+    overflow: visible;
   }
   .kilimanjaro_social_links a {
     font-size: 13px;
