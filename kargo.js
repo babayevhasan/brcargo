@@ -44,11 +44,25 @@ jQuery(document).ready(function ($) {
 
 // Part Of NavBar
 
-const menuHamburger = document.querySelector(".burger");
-const navLinks = document.querySelector(".navbar");
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-menuHamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("mobile-menu");
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
+window.addEventListener("scroll", () => {
+  if (navMenu.classList.contains("active")) {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
 });
 
 //Part Of About
@@ -56,5 +70,3 @@ menuHamburger.addEventListener("click", () => {
 $(".hover").mouseleave(function () {
   $(this).removeClass("hover");
 });
-
-
