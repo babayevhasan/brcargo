@@ -13,45 +13,49 @@ $(".buttonUsa").click(function () {
   $(".rates").hide();
 });
 
-// inputları seç
+///Inputlarin cagirilmasi
 const countrySelect = document.querySelector(".calculator-country select");
-const sizeInputs = document.querySelectorAll(".calculator-input input");
+const agirliqInput = document.querySelector("#kg");
+const enInput = document.querySelector("#en");
+const hundurlukInput = document.querySelector("#hundurluk");
+const uzunluqInput = document.querySelector("#uzunluq");
 const resultParagraph = document.querySelector(".calculator-number p");
 
-// ağırlığı hesablamaq ucun
+///Her inputun bir qiymete menimsedilmesi
+const PRICE_KG = 2;
+const PRICE_EN = 1.5;
+const PRICE_HUNDURLUK = 2;
+const PRICE_UZUNLUQ = 2.5;
+
+///Her inputun degerinin hesablanmasi hem tek halda hem cem halda
 function calculatePrice() {
-  let totalWeight = 0;
-  let totalCost = 0;
+  let totalkg = parseFloat(agirliqInput.value) || 0;
+  let totalen = parseFloat(enInput.value) || 0;
+  let totalhundurluk = parseFloat(hundurlukInput.value) || 0;
+  let totaluzunluq = parseFloat(uzunluqInput.value) || 0;
 
-  // ağırlığı cevirmek ucun
-  sizeInputs.forEach((input) => {
-    if (input.value) {
-      totalWeight += parseFloat(input.value);
-    }
-  });
+  let totalCost =
+    totalkg * PRICE_KG +
+    totalen * PRICE_EN +
+    totalhundurluk * PRICE_HUNDURLUK +
+    totaluzunluq * PRICE_UZUNLUQ;
 
-  // olkeye göre qiymet hesaplama
+  // olkeye göre pul elave etsin
   if (countrySelect.value === "ABŞ") {
-    totalCost += 2; // ABŞ için ek maliyet
+    totalCost += 2;
   }
 
-  // agirliq araligina göre qiymet hesaplamaq
-  if (totalWeight >= 1 && totalWeight <= 1.5) {
-    totalCost += totalWeight * 2.5;
-  } else if (totalWeight > 1.5 && totalWeight <= 2) {
-    totalCost += totalWeight * 3;
-  } else if (totalWeight > 2 && totalWeight <= 3) {
-    totalCost += totalWeight * 3.5;
-  } else {
-    // sehv yazilanda netice qaytaar
-    resultParagraph.textContent = "Xətalı giriş, zəhmət olmasa düzgün yazın.";
+  // reqem yazilmayanda xeta qaytarsin
+  if (totalCost <= 0) {
+    resultParagraph.textContent = "Zəhmət olmasa düzgün rəqəmi yazın";
     return;
   }
 
-  // Nəticəni görmək
+  // neticeni göstermek
   resultParagraph.textContent = `$ ${totalCost.toFixed(2)}`;
 }
 
-sizeInputs.forEach((input) => {
-  input.addEventListener("keyup", calculatePrice);
+// Toplam neticeni hesaplamaq ucun için input eventi
+[agirliqInput, enInput, hundurlukInput, uzunluqInput].forEach((input) => {
+  input.addEventListener("input", calculatePrice);
 });
