@@ -279,8 +279,8 @@ h1.show {
   width: 100%;
 }
 
-.allbrands .brands {
-}
+/* .allbrands .brands {
+} */
 
 @-webkit-keyframes scroll {
   0% {
@@ -967,12 +967,13 @@ section h2 {
 /* Part of PANEL START */
 .admin-panel {
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   display: flex;
 }
 
 .panel-left {
-  background-color: #fc8a00;
+  /* background-color: #fc8a00; */
+  background-color: #ec880c;
   padding-top: 50px;
   width: 25%;
   height: auto;
@@ -982,19 +983,69 @@ section h2 {
   font-size: 20px;
 }
 .panel-left li {
+  text-align: center;
   border: solid black 2px;
+  border-radius: 10px;
   border-left: none;
   border-right: none;
   background-color: rgb(239, 239, 239);
-  margin: 30px 0px;
+  margin: 15px auto;
   padding: 10px;
+  width: 80%;
+  transition: 0.5s;
+}
+.panel-left li:hover{
+  background-color: rgb(0, 0, 0);
+color: whitesmoke;
 }
 
 .panel-right {
-  /* background-color: green; */
+  background-color: #e27f05;
   width: 75%;
   height: auto;
+  padding-top: 200px;
+  text-align: center;
 }
+
+.panel-right input{
+  width: 50%;
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border-left: none;
+  border-right: none;
+}
+
+.panel-right button{
+width: 20%;
+padding: 10px;
+border-radius: 10px;
+margin-top: 50px;
+}
+.panel-right button:hover{
+  background-color: rgb(10, 9, 9);
+  color: whitesmoke;
+  transition: 0.5s;
+}
+.panel-right-baglama{
+  background-color: #e27f05;
+  width: 100%;
+  /* height: auto; */
+  /* padding-top: 200px; */
+  text-align: center;
+  padding-top: 50px;
+}
+
+.panel-right-baglama div{
+  width: 80%;
+  margin: 10px auto;
+  height: 25vh;
+border-radius: 10px;
+background-color: rgb(239, 239, 239);
+
+}
+
 
 /* Part of PANEL END */
 
