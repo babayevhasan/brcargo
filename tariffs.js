@@ -47,7 +47,7 @@ function calculatePrice() {
 
   // reqem yazilmayanda xeta qaytarsin
   if (totalCost <= 0) {
-    resultParagraph.textContent = "Zəhmət olmasa düzgün rəqəmi yazın";
+    resultParagraph.textContent = "$0.00";
     return;
   }
 
