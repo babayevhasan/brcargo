@@ -45,7 +45,7 @@ function calculatePrice() {
     totalCost += 2;
   }
 
-  // reqem yazilmayanda xeta qaytarsin
+  // reqem yazilmayanda eyni reqemi qaytarsin
   if (totalCost <= 0) {
     resultParagraph.textContent = "$0.00";
     return;
