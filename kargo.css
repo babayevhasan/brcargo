@@ -1083,28 +1083,51 @@ section h2 {
   border-radius: 10px;
   background-color: rgb(239, 239, 239);
 }
-.panel-right-tesdiq form{
-width:80%;
-height:60vh;
-margin: 50px auto;
-background-color: rgb(237, 234, 234); 
-border-radius: 10px;
+
+.panel-right-tesdiq form {
+  width: 80%;
+  height: 60vh;
+  margin: 50px auto;
+  background-color: rgb(237, 234, 234);
+  border-radius: 10px;
 }
-.panel-right-tesdiq input{
+
+.panel-right-tesdiq input {
   width: 80%;
   border-radius: 100px;
   height: 10vh;
   margin: 80px auto;
 }
-.panel-right-tesdiq button{
+
+.panel-right-tesdiq button {
   padding: 10px;
   width: 200px;
   border-radius: 20px;
 }
-.panel-right-tesdiq button:hover{
+
+.panel-right-tesdiq button:hover {
   background-color: rgb(10, 9, 9);
   color: whitesmoke;
   transition: 0.5s;
+}
+
+/* ADMIN --------MENIM MELUMATLARIM */
+.panel-right-melumatlar {
+  width: 60%;
+  height: 60vh;
+  margin: 100px auto;
+  background-color: rgb(237, 234, 234);
+  border-radius: 10px;
+  text-align: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.panel-right-melumatlar input{
+  width: 60%;
+  padding: 10px;
+  margin: 25px auto;
+  margin-top: 35px;
+  border-radius: 10px;
 }
 
 /* Part of PANEL END */
