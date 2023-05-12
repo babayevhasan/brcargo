@@ -917,6 +917,8 @@ section h2 {
   height: 100%;
   /* background-color: rgb(189, 116, 116); */
   text-align: center;
+  margin: 100px 0px;
+
 }
 
 .calculator-country select {
@@ -962,6 +964,8 @@ section h2 {
   width: 40%;
   height: auto;
   padding: 50px;
+  margin: 100px 0px;
+  /* background-color: red; */
 }
 
 .calculator-info h3 {
@@ -1059,6 +1063,12 @@ section h2 {
 /* background-color: bisque; */
 width: 70%;
 }
+.admin-panel-balance-top-right button{
+padding: 10px;
+border-radius: 5px;
+width:200px;
+margin-left: 20px;
+  }
 .admin-panel-balance-top-right input{
   padding: 10px;
   border-radius: 5px;
@@ -1071,6 +1081,7 @@ width: 70%;
 .admin-panel-balance-top-right button:hover{
   background-color: black;
   color: white;
+  transition: 0.5s;
 }
 
 .admin-panel-balance-top-left h3 {
