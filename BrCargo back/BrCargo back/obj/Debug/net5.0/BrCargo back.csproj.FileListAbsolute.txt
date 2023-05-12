@@ -1,0 +1,27 @@
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\appsettings.json
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\BrCargo back.exe
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\BrCargo back.deps.json
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\BrCargo back.runtimeconfig.json
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\BrCargo back.runtimeconfig.dev.json
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\BrCargo back.dll
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\BrCargo back.pdb
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.csproj.AssemblyReference.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.AssemblyInfoInputs.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.AssemblyInfo.cs
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.csproj.CoreCompileInputs.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\scopedcss\bundle\BrCargo back.styles.css
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\staticwebassets\BrCargo back.StaticWebAssets.Manifest.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\staticwebassets\BrCargo back.StaticWebAssets.Pack.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\staticwebassets\msbuild.BrCargo back.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\staticwebassets\msbuild.build.BrCargo back.props
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.BrCargo back.props
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.BrCargo back.props
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.RazorTargetAssemblyInfo.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.dll
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\refint\BrCargo back.dll
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.pdb
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.genruntimeconfig.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\ref\BrCargo back.dll
