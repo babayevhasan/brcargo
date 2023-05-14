@@ -1779,3 +1779,107 @@ section h2 {
 }
 
 /* Part of adminidare etme end */
+/* Part of adminpanel  start */
+.adminpanel-container {
+  width: 100%;
+  height: auto;
+}
+.adminpanel-container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.adminpanel-container thead {
+  background-color: #ddd;
+}
+
+.adminpanel-container th,
+.adminpanel-container td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.adminpanel-container th {
+  font-weight: bold;
+}
+
+.adminpanel-container tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.adminpanel-container button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Part of adminpanel  end */
+.adminpanel-tesdiq {
+  width: 100%;
+  height: auto;
+}
+.adminpanel-tesdiq table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.adminpanel-tesdiq thead {
+  background-color: #ddd;
+}
+
+.adminpanel-tesdiq th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.adminpanel-tesdiq th {
+  font-weight: bold;
+}
+
+.adminpanel-tesdiq tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.adminpanel-tesdiq input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.adminpanel-tesdiq input[type="radio"] {
+  margin-right: 6px;
+}
+
+.adminpanel-tesdiq button[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.adminpanel-tesdiq button {
+  cursor: pointer;
+}
+
+/* Part of admintesdiq  start */
