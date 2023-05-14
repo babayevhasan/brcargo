@@ -984,17 +984,18 @@ section h2 {
 
 .section-notifications {
   width: 100%;
+  display: flex;
 }
 .notifications-card {
   width: 25%;
   background-color: orange;
   border-radius: 10px;
   margin: 50px 20px;
+  height: 25%;
 }
 
 .notifications-head {
   width: 100%;
-  /* height: 50px; */
   margin: auto;
   background-color: rgb(222, 146, 5);
   padding: 10px 25px;
@@ -1009,18 +1010,17 @@ section h2 {
 .notifications-body h3 {
   font-size: 25px;
 }
-.notifications-footer {
-  text-align: end;
-}
-.notifications-footer button {
-  padding: 5px;
+
+
+.notifications-footer i {
+  font-size: 30px;
   border: none;
   border-radius: 10px;
-  background-color: #b92727;
-  color: whitesmoke;
   transition: 0.5s;
+  margin-left: 310px;
 }
-.notifications-footer button:hover {
+
+.notifications-footer i:hover {
   background-color: rgb(7, 101, 7);
   color: white;
 }
@@ -1239,6 +1239,18 @@ section h2 {
   padding: 10px;
   margin: 35px 30px;
   border-radius: 5px;
+}
+.admin-panel-settings-form button{
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(204, 200, 200);
+  border: none;
+  transition: 0.5s;
+}
+.admin-panel-settings-form button:hover{
+background-color: black;
+color: white;
 }
 
 /* Part of PANEL END */
