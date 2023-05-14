@@ -1163,11 +1163,16 @@ section h2 {
   /* padding: 50px; */
 }
 .admin-panel-right-order-two input {
-  width: 300px;
+  width: 300px !important;
   padding: 10px;
 }
+#mehsulsayi {
+  width: 300px !important;
+  padding: 10px;
+  border: 1px solid black;
+}
 .admin-panel-right-order-two select {
-  width: 300px;
+  width: 300px !important;
   padding: 10px;
 }
 .admin-panel-right-order-three {
