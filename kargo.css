@@ -1057,7 +1057,6 @@ section h2 {
 
 .admin-panel-left-li {
   width: 100%;
-  /* background-color: rgb(97, 198, 203); */
   text-align: start;
   padding: 50px 30px;
 }
@@ -1083,12 +1082,9 @@ section h2 {
 
 .admin-panel-right {
   width: 75%;
-  /* height: 100vh; */
-  /* background-color: green; */
 }
 
 .admin-panel-right {
-  /* display: flex; */
   width: 100%;
   height: auto;
 }
