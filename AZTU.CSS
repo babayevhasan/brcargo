@@ -1,0 +1,151 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.All {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.All-left {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(73, 76, 136);
+    position: fixed;
+}
+
+.All-left-top {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.All-left-top h1 {
+    font-size: 30px;
+}
+
+.All-left-body {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.All-left-body li {
+    margin: 30px 0px;
+    color: white;
+}
+
+.All-left-body a {
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    color: gray;
+    transition: 0.5s;
+}
+
+.All-left-body :hover {
+    /* color: black; */
+    color: rgb(112, 28, 28);
+
+
+}
+
+.All-left-bottom {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.All-left-bottom p{
+margin-top: 100px;
+color: white;
+}
+
+.All-left-bottom-footer {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.All-left-bottom-footer i {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.All-left-bottom-footer i:hover {
+    color: rgb(199, 196, 196);
+    font-size: 25px;
+}
+
+.All-right {
+    width: 80%;
+    height: 200vh;
+    margin-left: 20%;
+}
+
+.All-right-top {
+    width: 100%;
+    text-align: center;
+}
+.All-right-top h1{
+font-size: 35px;
+}
+
+.All-right-top img {
+    width: 25%;
+    border-radius: 100%;
+    margin: 20px 0px;
+}
+.All-right-body{
+    width:50%;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+}
+.All-right-body p{
+font-size: 18px;
+}
+
+.calculator {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(73, 76, 136);
+    border-radius: 10px;
+}
+
+#result {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button{
+    width: 80px;
+    height: 50px;
+    font-size: 24px;
+  background-color: rgb(112, 28, 28);
+  color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f7f7f7;
+    color: black;
+}
+
+

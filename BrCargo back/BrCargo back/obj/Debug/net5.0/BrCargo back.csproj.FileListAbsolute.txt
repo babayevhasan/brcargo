@@ -25,3 +25,14 @@ C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\refint
 C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.pdb
 C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.genruntimeconfig.cache
 C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\ref\BrCargo back.dll
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\BrCargo back.Views.dll
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\bin\Debug\net5.0\BrCargo back.Views.pdb
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.RazorAssemblyInfo.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.RazorAssemblyInfo.cs
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.TagHelpers.input.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.TagHelpers.output.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.RazorCoreGenerate.cache
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\Razor\Views\Br\Index.cshtml.g.cs
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.RazorTargetAssemblyInfo.cs
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.Views.pdb
+C:\Users\Hasan\Desktop\brcargo\BrCargo back\BrCargo back\obj\Debug\net5.0\BrCargo back.csproj.CopyComplete

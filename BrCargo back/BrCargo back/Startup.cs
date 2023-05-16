@@ -32,10 +32,10 @@ namespace BrCargo_back
             app.UseEndpoints(endpoints =>
             {
 
-                endpoints.MapControllerRoute(
-                    name: "Default",
-                    pattern: "{controller=Home/{actio = index}/{id?}"
-                    );
+                //endpoints.MapControllerRoute(
+                //    name: "Default",
+                //    pattern: "{controller=Home/{actio = index}/{id?}"
+                //    );
             });
         }
     }
